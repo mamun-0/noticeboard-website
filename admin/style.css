@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+/* Common Style */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Lato', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    overflow: hidden;
+}
+.nav-bar{
+    width: 100vw;
+    height: 15vh;
+    background-color:#000;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 2rem; */
+}
+.nav-bar ul li button{
+    padding: 1rem 2rem ;
+    cursor: pointer;
+    /* background-color: rgb(156, 25, 25); */
+    margin-top: 2rem;
+    color: #000;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.nav-bar ul li button:hover{
+    background-color: rgb(30, 51, 145);
+    color: #fff;
+    opacity: 1.1;
+}
+
+/* Section 1 */
+.section-1{
+    width: 100vw;
+    background-color: burlywood;
+    /* margin: 2rem 0; */
+    padding: 2rem;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.container{
+    width: 100%;
+}
+.card{
+    width: 30%;
+    border: 1px solid red;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    overflow: hidden;
+    background-color: rgba(236, 216, 124, 0.877);
+    border-radius: 1rem;
+}
+.card:last-child{
+    margin-right: none;
+}
+.card ul li{
+    font-size: 2rem;
+    border-bottom: 1px solid #eee;
+    margin-bottom: .8rem;
+}
+/* End of Section 1 */
+
+/* Form */
+.form form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.form form input{
+    margin-bottom: 2rem;
+    width: 50vw;
+    text-align: center;
+    font-size: 2rem;
+}
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* End of form */
+
+.hidden{
+    visibility: hidden;
+}
+
+
+/* Footer */
+/* End of footer */
